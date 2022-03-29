@@ -72,10 +72,10 @@ def cut_fill(orginal_image, stick_image, json_path, stick_mode=None):
 # rectangle_prtint(path_json)
 
 # # 填充
-# path_json = 'boxes.json'
-# img1 = 'image_1.jpg'
-# img2 = 'image_2.jpg'
-# im = cut_fill(img1, img2, path_json, stick_mode='ratio')
-# plt.imshow(im)
-# plt.show()
+path_json = 'boxes.json'
+img1 = 'bus.jpg'
+img2 = 'zidane.jpg'
+im = cut_fill(img1, img2, path_json, stick_mode='ratio')
+plt.imshow(im)
+plt.show()
 
