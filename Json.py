@@ -75,6 +75,9 @@ def cut_fill(orginal_image, stick_image, json_path, stick_mode=None):
 path_json = 'boxes.json'
 img1 = 'bus.jpg'
 img2 = 'zidane.jpg'
+
+# 拉伸填充 stick_mode='normal'
+# 保持原始比例填充 stick_mode='ratio'
 im = cut_fill(img1, img2, path_json, stick_mode='ratio')
 plt.imshow(im)
 plt.show()
